@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="5.91">
+<eagle version="6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8388,25 +8388,20 @@ Source: Motorola European Master Guide Pacge 3-59</description>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="0207/7" value="81"/>
 <part name="VDD4" library="supply1" deviceset="VDD" device=""/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="0207/7"/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="0207/7"/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="0207/7"/>
 <part name="IC1" library="maxim" deviceset="ICL7611" device="PA" technology="AC"/>
 <part name="Q2" library="transistor-fet" deviceset="?548*" device="2N" technology="6"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="Q3" library="transistor-fet" deviceset="?548*" device="2N" technology="6"/>
 <part name="VDD5" library="supply1" deviceset="VDD" device=""/>
-<part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="R9" library="rcl" deviceset="R-EU_" device="0207/7"/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="0207/7"/>
 <part name="C4" library="rcl" deviceset="C-EU" device="025-025X050"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="VDD6" library="supply1" deviceset="VDD" device=""/>
-<part name="R11" library="rcl" deviceset="R-EU_" device="0207/7"/>
-<part name="VDD7" library="supply1" deviceset="VDD" device=""/>
 <part name="C5" library="rcl" deviceset="C-EU" device="025-025X050"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="R12" library="rcl" deviceset="R-EU_" device="0207/7"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="0207/7"/>
+<part name="R6" library="rcl" deviceset="R-EU_" device="0207/7"/>
 </parts>
 <sheets>
 <sheet>
@@ -8425,9 +8420,9 @@ Source: Motorola European Master Guide Pacge 3-59</description>
 <instance part="C2" gate="G$1" x="193.04" y="78.74" rot="MR180"/>
 <instance part="C3" gate="G$1" x="187.96" y="78.74" rot="R180"/>
 <instance part="GND4" gate="1" x="190.5" y="73.66"/>
-<instance part="LSP1" gate="1" x="-2.54" y="25.4" rot="R90"/>
-<instance part="LSP2" gate="1" x="-2.54" y="17.78" rot="R90"/>
-<instance part="GND5" gate="1" x="0" y="7.62"/>
+<instance part="LSP1" gate="1" x="-2.54" y="27.94" rot="R90"/>
+<instance part="LSP2" gate="1" x="-2.54" y="20.32" rot="R90"/>
+<instance part="GND5" gate="1" x="2.54" y="15.24"/>
 <instance part="U1" gate="G$1" x="231.14" y="60.96" rot="MR0"/>
 <instance part="GND3" gate="1" x="215.9" y="48.26"/>
 <instance part="SV1" gate="1" x="40.64" y="127" rot="MR180"/>
@@ -8441,25 +8436,20 @@ Source: Motorola European Master Guide Pacge 3-59</description>
 <instance part="GND7" gate="1" x="55.88" y="127"/>
 <instance part="R7" gate="G$1" x="48.26" y="111.76" rot="R90"/>
 <instance part="VDD4" gate="G$1" x="55.88" y="109.22"/>
-<instance part="R5" gate="G$1" x="10.16" y="25.4"/>
-<instance part="R6" gate="G$1" x="25.4" y="25.4"/>
-<instance part="R8" gate="G$1" x="55.88" y="35.56"/>
-<instance part="IC1" gate="A" x="53.34" y="22.86" rot="MR180"/>
-<instance part="Q2" gate="G$1" x="30.48" y="58.42" rot="MR0"/>
-<instance part="GND8" gate="1" x="40.64" y="17.78"/>
+<instance part="R8" gate="G$1" x="40.64" y="43.18"/>
+<instance part="IC1" gate="A" x="35.56" y="30.48" rot="MR180"/>
+<instance part="Q2" gate="G$1" x="25.4" y="50.8" rot="R270"/>
+<instance part="GND8" gate="1" x="7.62" y="38.1"/>
 <instance part="Q3" gate="G$1" x="10.16" y="81.28" rot="MR0"/>
 <instance part="VDD5" gate="G$1" x="2.54" y="91.44"/>
-<instance part="GND9" gate="1" x="22.86" y="50.8"/>
-<instance part="R9" gate="G$1" x="60.96" y="63.5" rot="R90"/>
-<instance part="R10" gate="G$1" x="50.8" y="55.88" rot="R180"/>
-<instance part="C4" gate="G$1" x="40.64" y="50.8"/>
-<instance part="GND10" gate="1" x="40.64" y="43.18"/>
-<instance part="VDD6" gate="G$1" x="60.96" y="71.12"/>
-<instance part="R11" gate="G$1" x="33.02" y="86.36" rot="R90"/>
-<instance part="VDD7" gate="G$1" x="33.02" y="93.98"/>
+<instance part="R10" gate="G$1" x="48.26" y="63.5" rot="R180"/>
+<instance part="C4" gate="G$1" x="38.1" y="58.42"/>
+<instance part="GND10" gate="1" x="38.1" y="50.8"/>
 <instance part="C5" gate="G$1" x="17.78" y="73.66"/>
 <instance part="GND11" gate="1" x="17.78" y="66.04"/>
 <instance part="R12" gate="G$1" x="25.4" y="78.74" rot="R180"/>
+<instance part="R5" gate="G$1" x="15.24" y="43.18"/>
+<instance part="R6" gate="G$1" x="2.54" y="63.5" rot="R270"/>
 </instances>
 <busses>
 <bus name="SDIN,SCLK,D/~C,~SCE,~RES">
@@ -8499,7 +8489,8 @@ Source: Motorola European Master Guide Pacge 3-59</description>
 <segment>
 <pinref part="LSP2" gate="1" pin="MP"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="0" y1="10.16" x2="0" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="17.78" x2="2.54" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="20.32" x2="0" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="-"/>
@@ -8519,18 +8510,18 @@ Source: Motorola European Master Guide Pacge 3-59</description>
 <wire x1="55.88" y1="132.08" x2="55.88" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="22.86" y1="53.34" x2="22.86" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="G$1" pin="S"/>
-<wire x1="22.86" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="C4" gate="G$1" pin="2"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
 <pinref part="GND11" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="GND8" gate="1" pin="GND"/>
+<wire x1="10.16" y1="43.18" x2="7.62" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="43.18" x2="7.62" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VUSB" class="0">
@@ -8693,14 +8684,6 @@ Source: Motorola European Master Guide Pacge 3-59</description>
 <pinref part="Q3" gate="G$1" pin="D"/>
 <wire x1="2.54" y1="83.82" x2="5.08" y2="83.82" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="R9" gate="G$1" pin="2"/>
-<pinref part="VDD6" gate="G$1" pin="VDD"/>
-</segment>
-<segment>
-<pinref part="R11" gate="G$1" pin="2"/>
-<pinref part="VDD7" gate="G$1" pin="VDD"/>
-</segment>
 </net>
 <net name="SDIN" class="0">
 <segment>
@@ -8759,97 +8742,58 @@ Source: Motorola European Master Guide Pacge 3-59</description>
 <pinref part="R7" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="R5" gate="G$1" pin="2"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="15.24" y1="25.4" x2="17.78" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="G$1" pin="D"/>
-<wire x1="17.78" y1="25.4" x2="20.32" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="60.96" x2="17.78" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="60.96" x2="17.78" y2="25.4" width="0.1524" layer="91"/>
-<junction x="17.78" y="25.4"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="R6" gate="G$1" pin="2"/>
-<pinref part="IC1" gate="A" pin="-IN"/>
-<wire x1="30.48" y1="25.4" x2="33.02" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="33.02" y1="25.4" x2="43.18" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="35.56" x2="33.02" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="35.56" x2="33.02" y2="25.4" width="0.1524" layer="91"/>
-<junction x="33.02" y="25.4"/>
-</segment>
-</net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="LSP1" gate="1" pin="MP"/>
-<wire x1="5.08" y1="25.4" x2="2.54" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="Q3" gate="G$1" pin="S"/>
-<wire x1="2.54" y1="25.4" x2="0" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="78.74" x2="2.54" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="78.74" x2="2.54" y2="25.4" width="0.1524" layer="91"/>
-<junction x="2.54" y="25.4"/>
+<pinref part="IC1" gate="A" pin="+IN"/>
+<wire x1="0" y1="27.94" x2="2.54" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="2.54" y1="27.94" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="58.42" x2="2.54" y2="27.94" width="0.1524" layer="91"/>
+<junction x="2.54" y="27.94"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
 <pinref part="IC1" gate="A" pin="OUT"/>
-<wire x1="63.5" y1="22.86" x2="73.66" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="22.86" x2="73.66" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="35.56" x2="73.66" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="30.48" x2="73.66" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="30.48" x2="73.66" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="43.18" x2="73.66" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="RC1/AN5/C12IN1-/INT1/VREF-"/>
 <wire x1="73.66" y1="71.12" x2="93.98" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="35.56" x2="73.66" y2="35.56" width="0.1524" layer="91"/>
-<junction x="73.66" y="35.56"/>
-</segment>
-</net>
-<net name="GND" class="0">
-<segment>
-<pinref part="IC1" gate="A" pin="+IN"/>
-<wire x1="43.18" y1="20.32" x2="40.64" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="GND8" gate="1" pin="GND"/>
+<wire x1="45.72" y1="43.18" x2="73.66" y2="43.18" width="0.1524" layer="91"/>
+<junction x="73.66" y="43.18"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
-<wire x1="60.96" y1="58.42" x2="60.96" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="55.88" x2="71.12" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="55.88" x2="71.12" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="63.5" x2="71.12" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="63.5" x2="71.12" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="RC2/AN6/P1D/C12IN2-/CVREF/INT2"/>
 <wire x1="71.12" y1="73.66" x2="93.98" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="1"/>
 <pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="55.88" x2="60.96" y2="55.88" width="0.1524" layer="91"/>
-<junction x="60.96" y="55.88"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
-<wire x1="33.02" y1="78.74" x2="71.12" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="78.74" x2="71.12" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="78.74" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="RC3/AN7/P1C/C12IN3-/PGM"/>
 <wire x1="71.12" y1="76.2" x2="93.98" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="33.02" y1="81.28" x2="33.02" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="78.74" x2="33.02" y2="78.74" width="0.1524" layer="91"/>
-<junction x="33.02" y="78.74"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="Q2" gate="G$1" pin="G"/>
-<wire x1="45.72" y1="55.88" x2="40.64" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="63.5" x2="38.1" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="55.88" x2="35.56" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="53.34" x2="40.64" y2="55.88" width="0.1524" layer="91"/>
-<junction x="40.64" y="55.88"/>
+<wire x1="38.1" y1="63.5" x2="22.86" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="63.5" x2="22.86" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="60.96" x2="38.1" y2="63.5" width="0.1524" layer="91"/>
+<junction x="38.1" y="63.5"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -8861,6 +8805,34 @@ Source: Motorola European Master Guide Pacge 3-59</description>
 <wire x1="17.78" y1="78.74" x2="20.32" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="76.2" x2="17.78" y2="78.74" width="0.1524" layer="91"/>
 <junction x="17.78" y="78.74"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="35.56" y1="43.18" x2="27.94" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="Q2" gate="G$1" pin="D"/>
+<wire x1="27.94" y1="45.72" x2="27.94" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="IC1" gate="A" pin="-IN"/>
+<wire x1="22.86" y1="33.02" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="43.18" x2="20.32" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="22.86" y1="33.02" x2="22.86" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="Q2" gate="G$1" pin="S"/>
+<wire x1="22.86" y1="43.18" x2="22.86" y2="45.72" width="0.1524" layer="91"/>
+<junction x="22.86" y="43.18"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="Q3" gate="G$1" pin="S"/>
+<wire x1="5.08" y1="78.74" x2="2.54" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="2.54" y1="68.58" x2="2.54" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
